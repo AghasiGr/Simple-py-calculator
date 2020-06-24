@@ -1,3 +1,8 @@
+from colorama import init 
+from colorama import Fore, Back, Style
+
+init()
+print(Fore.BLUE)
 operator = input ("Choose an operator (+, -, *, /, **)")
 
 a = float(input("Choose the first number:"))
@@ -20,5 +25,6 @@ elif operator == "**":
     c = a ** b 
     print("Result: " + str(c))
 else:
+    print(Fore.RED)
     print("Incorrect configuration!")
     
