@@ -13,7 +13,6 @@ b = float(input("Choose the second number:"))
 if operator == "+":
     c = a + b
     print("Result: " + str(c))
-
 elif operator == "-":
     c = a - b
     print("Result: " + str(c))
