@@ -7,24 +7,24 @@ print(Fore.BLUE)
 #choosing the operator
 operator = input ("Choose an operator (+, -, *, /, **)")
 #choosing the numbers
-a = float(input("Choose the first number:"))
-b = float(input("Choose the second number:"))
+num1 = float(input("Choose the first number:"))
+num2 = float(input("Choose the second number:"))
 #math calculations
 if operator == "+":
-    c = a + b
-    print("Result: " + str(c))
+    num3 = num1 + num2
+    print("Result: " + str(num3))
 elif operator == "-":
-    c = a - b
-    print("Result: " + str(c))
+    num3 = num1 - num2
+    print("Result: " + str(num3))
 elif operator == "*":
-    c= a * b
-    print("Result: " + str(c))
+    num3 = num1 * num2
+    print("Result: " + str(num3))
 elif operator == "/":
-    c= a / b
-    print("Result: " + str(c))
+    num3 = num1 / num2
+    print("Result: " + str(num3))
 elif operator == "**":
-    c = a ** b 
-    print("Result: " + str(c))
+    num3 = num1 ** num2
+    print("Result: " + str(num3))
 #incorrrect configuration
 else:
     print(Fore.RED)
