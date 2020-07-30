@@ -5,10 +5,10 @@ from colorama import Fore, Back, Style
 init()
 print(Fore.BLUE)
 #choosing the operator
-operator = input ("Choose an operator (+, -, *, /, **)")
+operator = input ("Choose an operator (+, -, *, /, **): ")
 #choosing the numbers
-num1 = float(input("Choose the first number:"))
-num2 = float(input("Choose the second number:"))
+num1 = float(input("Choose the first number: "))
+num2 = float(input("Choose the second number: "))
 #math calculations
 if operator == "+":
     num3 = num1 + num2
